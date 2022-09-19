@@ -15,6 +15,8 @@ RUN apt-get update && apt-get -y install \
     perl \
     perl-base \
     unzip \
+    sudo \
+    tasksel \
     wget && \
     rm -rf /var/lib/apt/lists/*
 
